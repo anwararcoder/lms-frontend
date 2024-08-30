@@ -10,9 +10,9 @@ const CoursePage = () => {
   const course = courses.find((course) => course.id.toString() === id);
 
   return (
-    <main className="course">
+    <div>
       <CourseBody course={course} title={course.title} />
-    </main>
+    </div>
   );
 };
 
